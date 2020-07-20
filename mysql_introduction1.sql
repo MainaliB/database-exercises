@@ -1,0 +1,5 @@
+SHOW DATABASES;
+USE chipotle;
+SELECT DATABASE();
+USE employees;
+SELECT DATABASE();
