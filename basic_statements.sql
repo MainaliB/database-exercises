@@ -5,7 +5,7 @@ USE albums_db;
 DESCRIBE albums;
 
 # 4
-SELECT * FROM albums
+SELECT name as 'Albums by Pink Floyd' FROM albums
 WHERE artist = 'Pink Floyd';
 
 select release_date from albums 
@@ -21,11 +21,14 @@ where release_date between '1990' and '1999';
 
 select * 
 from albums
-where sales > '20.0';
+where sales < '20.0';
 
 
 select * from albums
 where genre = 'Rock';
+
+select * from albums
+where genre LIKE '%rock%';
 
 
 
