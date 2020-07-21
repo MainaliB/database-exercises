@@ -44,6 +44,3 @@ WHERE title = 'staff'
 ORDER BY emp_no DESC
 LIMIT 20 OFFSET 100;
 
-SELECT * 
-FROM employees
-WHERE title = staff
